@@ -1,12 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import tugas9 from "./Tugas-9/tugas9";
 
+class TugaSembilan extends React.Component {
+  render() {
+    return <h1> {this.props.judul}</h1>;
+  }
+}
+
+var atas = [{ judul: "Form Pembelian Buah"  }]
 function App() {
   return (
     <div className="App">
       <header>
         <form style={{width:"50%", borderRadius:'20px', padding:"30px" , margin:"0 auto", border:"3px solid"}}> 
+        
         <h1 style={{textAlign: "center"}}> Form Pembelian Buah</h1>
           <h3 style= {{width:"180px", margin:"0 auto", display:"inline-flex"}}>Nama Pelanggan  </h3>
           <label>
