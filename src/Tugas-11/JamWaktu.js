@@ -24,7 +24,7 @@ class Jam extends React.Component {
     render() {
       return (
         <div>
-          <h1>Sekarang Jam <n></n>:<n></n> {this.state.date.toLocaleTimeString()} PM </h1>
+          <h1>Sekarang Jam  <n></n>:<n></n> {this.state.date.toLocaleTimeString()} PM </h1>
         </div>
       );
     }
